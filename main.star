@@ -425,6 +425,7 @@ def run(plan, args={}):
             network_id=network_id,
             final_genesis_timestamp=final_genesis_timestamp,
             genesis_validators_root=genesis_validators_root,
+            el_cl_data_files_artifact_uuid=el_cl_data_files_artifact_uuid
         )
 
         return output
@@ -745,6 +746,7 @@ def run(plan, args={}):
         network_id=network_id,
         final_genesis_timestamp=final_genesis_timestamp,
         genesis_validators_root=genesis_validators_root,
+	    el_cl_data_files_artifact_uuid=el_cl_data_files_artifact_uuid
     )
 
     return output
